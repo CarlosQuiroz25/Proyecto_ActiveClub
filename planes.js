@@ -31,3 +31,4 @@ function collapseAllCards() {
         card.classList.remove('expanded');
     });
 }
+

@@ -325,3 +325,288 @@ footer {
     background-color: #000;
     color: #fff;
 }
+
+/*
+Planes
+*/
+.plan {
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.plan.expanded {
+    height: 400px;
+}
+
+.planes-top{
+    background-image: url('/assets/gim.jpg');
+    background-size: cover;
+    transition: background-position 0.3s ease;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.titulo{
+    margin-top: 1px;
+    font-size: 40px;
+    font-weight: bold;
+    color: bisque;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 900;
+
+}
+
+.plan {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan:hover {
+    color: white;
+    background-color: black;
+}
+
+.plan.vip-plan {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan.vip-plan:hover {
+    color: white;
+    background-color: black;
+}
+
+.plan h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: bisque;
+    color: black;
+}
+
+.description {
+    text-align: left;
+    font-size: 1rem;
+    display: contents;
+    list-style: symbols();
+    padding: 0;
+}
+
+.description li {
+    margin-bottom: 10px;
+}
+
+.vip-plan {
+    background-color: bisque;
+}
+
+.vip-plan:hover a {
+    background-color: bisque;
+    color: black;
+}
+
+.plan:hover a {
+    color: #000;
+    background-color: white;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.expanded {
+    transform: scale(1.1);
+}
+
+.plan {
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.plan.expanded {
+    margin: auto;
+    height: auto;
+    padding: auto;
+}
+
+.cards-sub:hover {
+    box-shadow: 0 0 10px 1px;
+    border: 2px solid gray;
+
+}
+.cards-sub {
+    opacity: 0.7;
+    margin: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.plan {
+    transition: height 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan.expanded {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+.plan {
+    transition: background-color 0.3s ease;
+}
+
+.plan:hover {
+    background-color: #2d2828;
+}
+
+.plan.vip-plan:hover {
+    background-color: #2d2828;
+}
+
+.cards-sub.expanded {
+    opacity: 1;
+}
+
+.cards-sub {
+    transition: all 0.3s ease;
+}
+
+.cards-sub.expanded {
+    transform: scale(1.1);
+}
+.cards-sub {
+    position: relative;
+    transition: all 0.3s ease;
+   
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.cards-sub:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.check-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: green;
+    display: none;
+}
+
+.cards-sub.expanded .check-icon {
+    display: block;
+}
+
+.boton-siguiente {
+    margin: 40rem;
+    position: absolute;
+    right: 50px;
+    margin-inline: 110px;
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton:hover {
+    background-color: #2d2828;
+}
+
+.boton:active {
+    transform: scale(0.95);
+}
+@media (max-width: 768px) {
+    .cards-sub {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Disposición en grid */
+        gap: 1rem; /* Espacio entre tarjetas */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-sub {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        font-size: 1.2rem;
+    }
+}

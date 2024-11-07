@@ -1,12 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">#BeActive</div>
@@ -16,7 +17,7 @@
             <span>Regístrate</span>
         </div>
         <nav>
-            <ul class="nav-list">     
+            <ul class="nav-list">
                 <li class="dropdown">
                     <a href="#">Servicios</a>
                     <ul class="dropdown-menu">
@@ -27,7 +28,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="planes.html">Planes</a>
+                    <a href="#dir-plan">Planes</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Plan estudiantil</a></li>
                         <li><a href="#">Individual</a></li>
@@ -51,12 +52,12 @@
         <button onclick="location.href='./registro.html'" type="button" class="join-button">¡Únete ya!</button>
     </div>
 
-    <section class="section2">     
+    <section class="section2">
         <h1 class="p1">¿POR QUÉ SOMOS LA MEJOR EXPERIENCIA DE ENTRENAMIENTO?</h1>
         <div class="p2">
-            <p>En ActiveClub, sientes un ambiente cálido y familiar. Encuentras</p> 
-            <p> espacios cómodos pensados para ti; contamos con equipos de última</p> 
-            <p> tecnología y amplias zonas de entrenamiento. Nuestro equipo de trabajo</p> 
+            <p>En ActiveClub, sientes un ambiente cálido y familiar. Encuentras</p>
+            <p> espacios cómodos pensados para ti; contamos con equipos de última</p>
+            <p> tecnología y amplias zonas de entrenamiento. Nuestro equipo de trabajo</p>
             <p> está altamente calificado para asesorarte y guiarte en tu proceso.</p>
             <p> Qué estás esperando para unirte?</p>
         </div>
@@ -116,10 +117,79 @@
         </div>
     </section>
 
+
+    
+    <section class="planes-top">
+        <h1 class="titulo">Nuestros Planes</h1>
+        <p class="titulo">Mejores precios a tu bolsillo</p>
+        <div id="dir-plan" class="container">
+            <div class="cards-sub">
+                <div class="check-icon">✔️</div> <!-- Ícono de check -->
+                <div class="card-content">
+                    <div class="plan">
+                        <h2>BASICO</h2>
+                        <p>Cobro mensual</p>
+                        <p class="price">$ 60.000 /Mes</p>
+                        <p>Más mes siguiente $ 60.000<br>HOY PAGAS $ 120.000</p>
+                        <a href="" class="btn">Pagar mes + mes anticipado</a>
+                        <ul class="description">
+                            <li>Máquinas de musculación y cardio (la más grande del país)</li>
+                            <li>Cinema Cardio (único en Latinoamérica)</li>
+                            <li>Zona funcional</li>
+                            <li>App Athletic: Rutinas de entrenamiento y más</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards-sub">
+                <div class="check-icon">✔️</div>
+                <div class="card-content">
+                    <div class="plan">
+                        <h2>VIP</h2>
+                        <p>Cobro mensual</p>
+                        <p class="price">$ 75.000 /Mes</p>
+                        <p>Más mes siguiente $ 75.000<br>HOY PAGAS $ 150.000</p>
+                        <a href="" class="btn">Pagar mes + mes anticipado</a>
+                        <ul class="description">
+                            <li>Todos los beneficios de Basico</li>
+                            <li>Acceso a la zona VIP</li>
+                            <li>Acceso a los otros gimnasios de la red</li>
+                            <li>Entrena gratis con un amigo los días: viernes, sábado y domingo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards-sub">
+                <div class="check-icon">✔️</div>
+                <div class="card-content">
+                    <div class="plan vip-plan">
+                        <h2>VIP ANUAL (12 MESES)</h2>
+                        <p>Unico Cobro</p>
+                        <p class="price">$ 599.000</p>
+                        <p>$ 49.916,67 / Tarifa mensual</p>
+                        <a href="" class="btn">Comprar año</a>
+                        <ul class="description">
+                            <li>Acceso a la zona VIP</li>
+                            <li>Acceso a los otros gimnasios de la red</li>
+                            <li>Zona cardio</li>
+                            <li>Cinema cardio</li>
+                            <li>Máquinas de musculación y cardio</li>
+                            <li>App Athletic: Rutina</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="boton-siguiente"> Siguiente </button>
+    </section>
+
     <footer>
         <p>© 2024 Gym. Todos los derechos reservados.</p>
     </footer>
+    <script src="scripts.js"></script>
+    <script src="planes.js"></script>
 
-    <script src="./scripts.js"></script>
 </body>
+
 </html>
