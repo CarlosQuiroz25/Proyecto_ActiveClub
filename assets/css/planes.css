@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 nav {
@@ -94,7 +94,7 @@ h2 {
 }
 
 .plan:hover {
-    color: white;
+    color: black;
     background-color: black;
 }
 
