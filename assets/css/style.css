@@ -273,6 +273,11 @@ h2 {
     gap: 20px;
     padding: 20px;
 }
+@media (max-width: 768px) {
+    .img_tarjetas {
+      grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+  }
 
 .feature-card {
     background-color: #fff;
