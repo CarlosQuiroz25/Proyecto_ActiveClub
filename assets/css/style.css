@@ -273,6 +273,11 @@ h2 {
     gap: 20px;
     padding: 20px;
 }
+@media (max-width: 768px) {
+    .img_tarjetas {
+      grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+  }
 
 .feature-card {
     background-color: #fff;
@@ -551,29 +556,6 @@ h2 {
     display: block;
 }
 
-.boton-siguiente {
-    margin: 40rem;
-    position: absolute;
-    right: 50px;
-    margin-inline: 110px;
-    text-decoration: none;
-    background-color: bisque;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.boton:hover {
-    background-color: #2d2828;
-}
-
-.boton:active {
-    transform: scale(0.95);
-}
 @media (max-width: 768px) {
     .cards-sub {
         display: grid;

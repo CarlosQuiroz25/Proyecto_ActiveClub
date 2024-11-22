@@ -13,7 +13,9 @@
     height: 400px;
 }
 
-body {
+
+.planes-top {
+
     background-image: url('/assets/img/gim.jpg');
     background-size: cover;
     transition: background-position 0.3s ease;
