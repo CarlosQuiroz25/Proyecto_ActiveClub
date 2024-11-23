@@ -280,7 +280,7 @@ h2 {
     .img_tarjetas {
       grid-template-columns: 1fr; /* Cambia a una sola columna */
     }
-  }
+}
 
 .feature-card {
     background-color: #fff;
@@ -530,7 +530,6 @@ h2 {
 .cards-sub {
     position: relative;
     transition: all 0.3s ease;
-   
     transition: all 0.3s ease; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }

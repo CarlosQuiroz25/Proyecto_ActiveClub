@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas - Gimnasio</title>
+  <link rel="stylesheet" href="/assets/css/reservas.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Gimnasio <span>#BeActive</span></div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">INICIO</a></li>
+        <li><a href="#">CLASES</a></li>
+        <li><a href="#">MEMBRESÍA</a></li>
+        <li><a href="#">PERFIL</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="calendar">
+      <h1>Reserva tu Clase</h1>
+      <div id="schedule">
+        <!-- Aquí se generará dinámicamente el calendario -->
+      </div>
+    </section>
+
+    <section class="booking-form">
+      <h2>Detalles de la Reserva</h2>
+      <form id="reservation-form">
+        <label for="class-name">Clase:</label>
+        <select id="class-name" required>
+          <option value="">Selecciona una clase</option>
+          <option value="yoga">Yoga</option>
+          <option value="spinning">Spinning</option>
+          <option value="hiit">HIIT</option>
+        </select>
+
+        <label for="date">Fecha:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Hora:</label>
+        <select id="time" required>
+          <option value="">Selecciona un horario</option>
+          <option value="9am">9:00 AM</option>
+          <option value="11am">11:00 AM</option>
+          <option value="6pm">6:00 PM</option>
+        </select>
+
+        <button type="submit">Confirmar Reserva</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; © 2024 Gimnasio #BeActive. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="/assets/js/reservas.js"></script>
+</body>
+</html>
