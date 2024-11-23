@@ -9,7 +9,7 @@
 <body>
     <div class="register-container">
         <h1>Crear una cuenta</h1>
-        <form action="procesar_registro.php" method="POST">
+        <form>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
@@ -22,9 +22,9 @@
             <label for="confirm-password">Confirmar Contraseña:</label>
             <input type="password" id="confirm-password" name="confirm-password" required>
 
-            <button type="submit">Registrarse</button>
+            <button type="submit" href="/views/reservas.html">Registrarse</button>
         </form>
-        <p>¿Ya tienes una cuenta? <a href="/index.html">Inicia sesión</a></p>
+        <p>¿Ya tienes una cuenta? <a href="/views/login.html">Inicia sesión</a></p>
     </div>
 </body>
 </html>
